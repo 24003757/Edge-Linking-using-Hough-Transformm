@@ -32,8 +32,8 @@ REGISTER NUMBER: 212224240184
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
-img=cv2.imread("leaf.jpg",0)
-img_c=cv2.imread("leaf.jpg",1)
+img=cv2.imread("VI.jpeg",0)
+img_c=cv2.imread("VI.jpeg",1)
 img_c=cv2.cvtColor(img_c,cv2.COLOR_BGR2RGB)
 gray=cv2.cvtColor(img,cv2.COLOR_GRAY2RGB)
 gray = cv2.GaussianBlur(gray,(3,3),0)
